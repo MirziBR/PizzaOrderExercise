@@ -3,17 +3,17 @@ size = input("Whats size pizza do you want? S, M or L? ")
 bill = 0
 
 if size == "S":
-    bill = 15
+    bill += 15
     add_pepperoni = input("Do you want pepperoni? Yes or No? ")
     if add_pepperoni == "Yes":
         bill += 2
 elif size == "M":
-    bill = 20
+    bill += 20
     add_pepperoni = input("Do you want pepperoni? Yes or No? ")
     if add_pepperoni == "Yes":
         bill += 3
 elif size == "L":
-    bill = 25
+    bill += 25
     add_pepperoni = input("Do you want pepperoni? Yes or No? ")
     if add_pepperoni == "Yes":
         bill += 3
